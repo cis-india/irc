@@ -1,0 +1,479 @@
+/* Body
+-------------------------------------------------- */
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #1a1a1a;
+	background-color: #fff;
+}
+
+a {
+	color: #1a1a1a;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+  
+}
+a:hover,
+a:focus {
+	color: #1a1a1a;
+	text-decoration: none;
+}
+
+p {
+	font-size: 18px;
+	line-height: 24px;
+}
+
+p a {
+	border-bottom: 2px solid #ffff00;
+}
+
+p a:hover {
+	text-decoration: none;
+	background-color: #ffff00;
+	border-bottom: 2px solid #ffff00;
+}
+
+#highlight {
+	background-color: #ffff00;
+}
+
+
+h2 {
+	font-size: 36px;
+	color: #1a1a1a;
+	line-height: 20px;
+	background-color: #ffff00;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 24px;
+}
+
+h4 {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 6px 0px;	
+}
+
+h4 a {
+	border-bottom: 4px solid #ffff00;
+}
+
+h4 a:hover,
+h4 a:focus {
+	background-color: #ffff00;
+}
+
+.table > thead > tr > th {
+	vertical-align: bottom;
+	border-bottom: 0px solid #DDD;
+}
+
+/* Navigation
+-------------------------------------------------- */
+
+.navbar-inverse {
+	background-color: #1a1a1a;
+	border-bottom: 4px solid #ffff00;
+}
+
+.navbar-brand {
+	font-size: 24px;
+	margin-left: 40px;	
+}
+
+.navbar-brand a {
+	color: #ffff00;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus,
+.navbar-brand a:active {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+	color: #ffff00;
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #ffff00;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+	background-color: #00A865;
+	color: #333;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	text-decoration: none;
+   	color: #fff;
+	background-color: #00A865;
+}
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+	padding-right: 0;
+	padding-left: 0;
+}
+.navbar-wrapper .navbar {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.navbar-toggle {
+	margin-top: 10px;
+	margin-right: 0px;
+}
+
+.navbar-collapse {
+	border-top: 0px solid transparent;
+	box-shadow: none;
+}
+
+/* Posts
+-------------------------------------------------- */
+
+.img-circle {
+	border-radius: 8%;
+}
+
+.btn-default {
+	color: #666;
+	background-color: #FFF;
+	border-color: #CCC;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+
+.btn-default:hover,
+.btn-default:focus {
+	color: #00a865;
+	background-color: #FFF;
+	border-color: #00a865;
+}
+
+
+/* Content
+-------------------------------------------------- */
+
+.row {
+	margin-top: 100px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.box {
+	margin-bottom: 40px;
+	border: 1px solid #ddd;
+	border-radius: 4px 4px 4px 4px;
+	  -webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.content-header {
+	margin-top: 90px;
+	padding-left: 15px;
+	padding-bottom: 40px;
+	font-size: 24px;
+	color: #666;
+	line-height: 32px;
+}
+
+#chart {
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+.chart {
+	margin-bottom: 0px;
+	margin-left: -4px;
+}
+
+#chart-meta,
+#chart-description {
+	margin-top: 40px;
+}
+
+#chart-meta p,
+#chart-description p {
+	line-height: 22px;
+}
+
+/* Pad the edges of the mobile views a bit */
+.featured {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.featured .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.featured h2 {
+  font-weight: normal;
+}
+.featured .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Thumbnail
+------------------------- */
+
+.thumbnail img {
+	padding-top: 15px;
+}
+
+.thumbnail #caption {
+	text-align: center;
+}
+
+.thumbnail h3 {
+	font-size: 20px,
+	font-weight: normal;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+a.thumbnail:active,
+a.thumbnail:focus,
+a.thumbnail:hover {
+	border-color: #ffff00;
+}
+
+/* IRC and CIS
+------------------------- */
+
+.irc,
+.cis {
+	margin: 40px 0;
+	padding: 40px 0 10px 0;
+	border-top: 4px solid #ffff00;
+	overflow: hidden;
+}
+
+.irc ul li,
+.cis ul li {
+	font-size: 18px;
+
+}  
+
+.irc h3,
+.cis h3 {
+	margin-bottom: 20px;
+}
+  
+
+/* Footer
+-------------------------------------------------- */
+
+footer {
+	margin: 40px 0 30px 0;
+	padding: 40px 0 0 0;
+	border-top: 4px solid #ffff00;
+	overflow: hidden;
+}
+
+footer p {
+	font-size: 12px;	
+}
+
+
+/* Responsive CSS
+-------------------------------------------------- */
+
+@media (max-width: 515px) {
+
+	/* Top bar resizing */
+	.navbar-inverse .navbar-brand {
+		width: 80%;
+		height: 70px;
+	}
+}
+
+@media (max-width: 321px) {
+
+	/* Top bar resizing */
+	.navbar-inverse .navbar-brand {
+		height: 90px;
+	}
+
+}
+
+@media (min-width: 992px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left:  15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left:  0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+	.navbar-nav .open .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		background-color: transparent;
+		border: 0;
+		box-shadow: none;
+	}
+	.navbar-nav .open .dropdown-menu > li > a,
+	.navbar-nav .open .dropdown-menu .dropdown-header {
+		padding: 5px 15px 5px 25px;
+	}
+	.navbar-nav .open .dropdown-menu > li > a {
+		line-height: 20px;
+	}
+	.navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-nav .open .dropdown-menu > li > a:focus {
+		background-image: none;
+	}
+}
+
+@media (min-width: 992px) {
+	.navbar-nav {
+		float: left;
+		margin: 0;
+	}
+	.navbar-nav > li {
+		float: left;
+	}
+	.navbar-nav > li > a {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.navbar-nav.navbar-right:last-child {
+		margin-right: -15px;
+	}
+}
+
+@media (min-width: 767px) {
+	.navbar-left {
+		float: left !important;
+	}
+	.navbar-right {
+		float: right !important;
+	}
+}
+/*
+@media (max-width: 992px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #fff;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #333;
+		background-color: transparent;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #fff;
+		background-color: transparent;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+	.navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+		color: #ccc;
+		background-color: transparent;
+	}
+	.dropdown-header {
+		color: #ddd;
+	}
+}
+*/
+
+@media (min-width: 993px) {
+	.navbar-collapse {
+		width: auto;
+		border-top: 0;
+		box-shadow: none;
+	}
+	.navbar-collapse.collapse {
+		display: block !important;
+		height: auto !important;
+		padding-bottom: 0;
+		overflow: visible !important;
+	}
+	.navbar-collapse.in {
+		overflow-y: visible;
+	}
+	.navbar-fixed-top .navbar-collapse,
+	.navbar-static-top .navbar-collapse,
+	.navbar-fixed-bottom .navbar-collapse {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 992px) {
+	.navbar-inverse .navbar-collapse,
+	.navbar-inverse .navbar-form {
+		border-color: #00a865;
+		width: 100%;
+	}
+}
+
+@media (max-width: 515px) {
+	.navbar-toggle {
+		margin-top: 18px;
+		margin-right: 20px;
+	}
+}
