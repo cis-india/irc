@@ -39,11 +39,13 @@ p ol li {
 }
 
 p a,
+li a,
 h5 a {
 	border-bottom: 2px solid #ffff00;
 }
 
 p a:hover,
+li a:hover,
 h5 a:hover {
 	text-decoration: none;
 	background-color: #ffff00;
